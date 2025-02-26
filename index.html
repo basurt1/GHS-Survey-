@@ -1,15 +1,49 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Survey Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #333;
+        }
+        .container {
+            background: red;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: grey;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h2>Choose Your Survey</h2>
-    <a href="https://docs.google.com/forms/d/1GX0zZtK0jjFL0b5Xbb4PYRRJZ3gJahnPphj13cUM70/edit">
-        <button>Student Survey</button>
-    </a>
-    <a href="https://docs.google.com/forms/d/1ZWZ5wQ1Wjvi6r1FUemn7PQ2DwJTVsc2V7HoDcEbg7-o/edit">
-        <button>Teacher Survey</button>
-    </a>
+
+    <div class="container">
+        <h1>Choose Your Survey</h1>
+        <a href="https://docs.google.com/forms/d/1GX0zZtK0jjFL0b5Xbb4PYRRJZ3gJahnPphj13cUM70/edit" class="button">Student Survey</a>
+        <a href="https://docs.google.com/forms/YOUR-TEACHER-FORM-LINK" class="button">Teacher Survey</a>
+    </div>
+
 </body>
 </html>
